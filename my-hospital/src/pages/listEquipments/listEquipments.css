@@ -1,0 +1,9 @@
+.ListEquipments h1 {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 0;
+}
+
+.ListEquipments table {
+    margin: 0 auto;
+}

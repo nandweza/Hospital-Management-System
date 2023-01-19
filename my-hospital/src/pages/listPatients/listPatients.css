@@ -1,0 +1,9 @@
+.ListPatients h1 {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 0;
+}
+
+.ListPatients table {
+    margin: 0 auto;
+}

@@ -1,0 +1,9 @@
+.AddDoctor h1 {
+    margin-left: 300px;
+    margin-top: 50px;
+    padding-bottom: 0;
+}
+
+.AddDoctor button {
+    margin-bottom: 50px;
+}

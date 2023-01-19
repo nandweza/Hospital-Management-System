@@ -1,0 +1,28 @@
+.home{
+    flex: 1;
+    /*margin-left: 200px;*/
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1,
+.container p {
+    margin: auto;
+    margin-top: -400px;
+}
+
+.container h1 {
+    padding-bottom: 80px;
+    font-size: 50px;
+}
+
+.container p {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    border-bottom: 2px solid blue;
+}
+
