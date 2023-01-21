@@ -62,6 +62,10 @@ export default function Home() {
               <LocalPharmacy className="icon" />
               <h3>Store<br/>Details</h3>
             </div>
+            <div className="lower">
+              <LocalPharmacy className="icon" />
+              <h3>Pharmacy</h3>
+            </div>
             <div className="lower access">
               <div className="access-header">
                 <Star className="icon" />
@@ -72,7 +76,7 @@ export default function Home() {
                 <li>Register a new Patient</li>
                 </Link>
                 <li>Laboratory Test Results</li>
-                <li>Appointment with the Doctor</li>
+                <li>Appointments</li>
               </ul>
             </div>
           </div>

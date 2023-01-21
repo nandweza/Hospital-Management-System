@@ -1,8 +1,8 @@
 //import React, { useState } from 'react'
 //import axios from "axios";
-import "./addDoctor.css";
+import "./addStaff.css";
 
-export default function AddDoctor(/*props*/) {
+export default function AddStaff(/*props*/) {
     //   const [product, setProduct] = useState(
     //     {
     //       sn:"", item:"", quantity:"", unit:"", unitprice:"", costprice:"", sellingprice:"", profit:"", date:""
@@ -26,8 +26,8 @@ export default function AddDoctor(/*props*/) {
     //   }
     
       return (
-        <div className="AddDoctor">
-          <h1>Register Doctor</h1>
+        <div className="AddStaff">
+          <h1>Register Staff</h1>
           <div className="container">
             <div className="row">
               <div className="col-md-6 offset-3">
@@ -66,7 +66,7 @@ export default function AddDoctor(/*props*/) {
                   <input type='text' name='email' id='email'
                   className='form-control' /*onChange={inputHandler}*//>
     
-                  <button className="btn btn-primary" type="submit">Add Doctor</button>
+                  <button className="btn btn-primary" type="submit">Add Staff</button>
                 </form>
               </div>
             </div>

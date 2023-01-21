@@ -33,10 +33,12 @@ export default function Sidebar() {
               Add Doctor
             </li>
             </Link>
+            <Link to="/ListDoctors" className="link">
             <li className="sidebarListItem">
               <Menu className="sidebarIcon" />
               All Doctors
             </li>
+            </Link>
           </ul>
         </div>
         <div className="sidebarMenu">
@@ -48,10 +50,12 @@ export default function Sidebar() {
               Add Staff
             </li>
             </Link>
+            <Link to="/ListStaffs" className="link">
             <li className="sidebarListItem">
               <Menu className="sidebarIcon" />
               All Staffs
             </li>
+            </Link>
           </ul>
         </div>
         <div className="sidebarMenu">

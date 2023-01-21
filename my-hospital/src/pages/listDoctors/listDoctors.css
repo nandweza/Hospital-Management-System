@@ -1,0 +1,18 @@
+.ListDoctors h1 {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 0;
+}
+
+.ListDoctors .Wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 300px;
+}
+
+.ListDoctors .Wrapper .doctor {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: gainsboro;
+}

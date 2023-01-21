@@ -42,9 +42,6 @@ export default function AddPatient(/*props*/) {
               <label>Patient's Names</label>
               <input type='text' name='name' id='name' placeholder="eg Jon Doe"
               className='form-control' /*onChange={inputHandler}*//>
-              <label>Age</label>
-              <input type='number' name='age' id='age'
-              className='form-control' /*onChange={inputHandler}*//>
               <label>Sex</label>
               <input type='text' name='sex' id='sex'
               className='form-control' /*onChange={inputHandler}*//>
@@ -54,14 +51,35 @@ export default function AddPatient(/*props*/) {
               <label>Blood Group</label>
               <input type='text' name='bloodgp' id='bloodgp'
               className='form-control' /*onChange={inputHandler}*//>
+              <label>Medical history</label>
+              <input type='text' name='medical-h' id='medical-h'
+              className='form-control' /*onChange={inputHandler}*//>
+              <label>Symptoms & Signs</label>
+              <input type='text' name='symptoms' id='symptoms'
+              className='form-control' /*onChange={inputHandler}*//>
               <label>Diseases</label>
               <input type='text' name='disease' id='disease'
+              className='form-control' /*onChange={inputHandler}*//>
+              <label>Diognosis</label>
+              <input type='text' name='diagnosis' id='diagnosis'
+              className='form-control' /*onChange={inputHandler}*//>
+              <label>Prescribed medication</label>
+              <input type='text' name='p-medication' id='p-medication'
+              className='form-control' /*onChange={inputHandler}*//>
+              <label>Lab test results</label>
+              <input type='text' name='lab-test' id='lab-test'
               className='form-control' /*onChange={inputHandler}*//>
               <label>Phone</label>
               <input type='tel' name='phone' id='phone'
               className='form-control' /*onChange={inputHandler}*//>
               <label>Email</label>
               <input type='text' name='email' id='email'
+              className='form-control' /*onChange={inputHandler}*//>
+              <label>Admitted on</label>
+              <input type='date' name='a-date' id='a-date'
+              className='form-control' /*onChange={inputHandler}*//>
+              <label>Discharged on</label>
+              <input type='date' name='d-date' id='d-date'
               className='form-control' /*onChange={inputHandler}*//>
 
               <button className="btn btn-primary" type="submit">Add Patient</button>

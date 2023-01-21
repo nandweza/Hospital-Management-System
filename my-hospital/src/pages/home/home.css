@@ -54,22 +54,18 @@
 
 .wrapper .row3 {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     margin: 0 auto;
 }
 
 .wrapper .row3 .lower {
-    width: 400px;
+    width: 300px;
     height: 150px;
     text-align: center;
     padding: 15px;
     margin: 10px;
     background-color: whitesmoke;
     cursor: pointer;
-}
-
-.wrapper .row3 .access {
-    width: 500px;
 }
 
 .wrapper .access .access-header {
