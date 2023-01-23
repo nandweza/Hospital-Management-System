@@ -15,16 +15,32 @@ const Storage = multer.diskStorage({
 const upload = multer({ storage: Storage }).single('img');
 
 //CREATE NEW DOCTOR
-router.post('/', async(req, res) => {
-    const newDoctor = new Doctor(req.body);
-    //const img = req.file.filename;
+router.post('/', upload, (req, res) => {
+    const {
+        date,
+        firstName,
+        lastName,
+        age,
+        sex,
+        role,
+        department,
+        qualifications,
+        phone,
+        email
+    } = req.body;
+    const img = req.file.filename;
 
-    try {
-        const savedDoctor = await newDoctor.save();
-        res.status(201).json(savedDoctor);
-    } catch (err) {
-        res.status(500).json(err);
-    }
+    const doctor = new Doctor({ img, date, firstName, lastName,
+                                age, sex, role, department,
+                                qualifications, phone, email });
+
+    doctor
+        .save()
+        .then(() => {
+            console.log("Doctor registered successfully");
+            res.status(201).json(doctor);
+        })
+        .catch ((err) => console.log(err));
 });
 
 //UPDATE DOCTOR
