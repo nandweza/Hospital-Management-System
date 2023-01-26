@@ -4,11 +4,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url('https://media.istockphoto.com/id/1254985199/photo/mockup-black-tablet-computer.jpg?b=1&s=170667a&w=0&k=20&c=o5Rpy-n2WcQkkpPhU2FNbXCWs2yq3Me3uq0jYpfiKVI=');
+    background-size: cover;
   }
   
   .loginForm {
     display: flex;
     flex-direction: column;
+    width: 300px;
   }
   
   .loginInput {

@@ -40,14 +40,14 @@ export default function Home() {
           </div>
           <div className="row2">
             <div className="person">
-              <Person className="icon" />
+              <LocalHospital className="icon" />
               <h4>3</h4>
-              <h3>Doctors</h3>
+              <h3>Medical Staffs</h3>
             </div>
             <div className="person">
-              <LocalHospital className="icon" />
+              <Person className="icon" />
               <h4>5</h4>
-              <h3>Nurses</h3>
+              <h3>Non-Medical Staffs</h3>
             </div>
             <Link to="/ListPatients" style={{textDecoration: 'none'}}>
             <div className="person">

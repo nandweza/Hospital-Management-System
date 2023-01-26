@@ -12,6 +12,7 @@ const authRouter = require('./routes/Auth');
 
 const port = 3001;
 dotenv.config();
+mongoose.set('strictQuery', true);
 
 mongoose.connect(process.env.MONGO_URL)
 .then(() => console.log("DB Connection successfully!"))

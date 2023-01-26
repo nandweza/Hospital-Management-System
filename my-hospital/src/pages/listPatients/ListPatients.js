@@ -1,38 +1,43 @@
-//import axios from "axios";
-//import React, { useEffect, useState } from "react";
-//import { EditPro } from "./editProduct";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
+//import { EditPatient } from "./editProduct";
 import "./listPatients.css";
 
-export default function ListPatients(/*props*/) {
+export default function ListPatients(props) {
 
-    // const [product, setProduct] = useState([]);
-    // const url = 'http://localhost:4000/api/product/';
+    // const [patients, setPatients] = useState([]);
+    // const url = 'http://localhost:3001/api/patient/';
 
     // const getData = () => {
     //     const mydata = axios.get(url)
-    //     mydata.then(response => { setProduct(response.data); })
-    //         .catch(error => { console.log(error); setProduct ([]) })
+    //     mydata.then(response => { setPatients(response.data); })
+    //         .catch(error => { console.log(error); setPatients ([]) })
     // }
-    // const viewItem = (id) => {
+    // const viewPatient = (id) => {
     //     props.history.push({
-    //         pathname: '/ProductDetails/' + id
+    //         pathname: '/PatientDetails/' + id
     //     })
     // }
-    // const editItem = (id) => {
+    // const updatePatient = (id) => {
     //     props.history.push({
-    //         pathname: '/editProduct/' + id
+    //         pathname: '/editPatient/' + id
     //     })
     // }
-    // const tabRow = product.map((product, i) => {
+    // const tabRow = patients.map((patient, i) => {
     //     return (
     //         <tr key={i}>
-    //             <td>{product.sn}</td>
-    //             <td>{product.item}</td>
-    //             <td>{product.quantity}</td>
-    //             <td>{product.unit}</td>
+    //             <td>{patient.sn}</td>
+    //             <td>{patient.date}</td>
+    //             <td>{patient.name}</td>
+    //             <td>{patient.sex}</td>
+    //             <td>{patient.dob}</td>
+    //             <td>{patient.bloodgp}</td>
+    //             <td>{patient.disease}</td>
+    //             <td>{patient.phone}</td>
+    //             <td>{patient.email}</td>
     //             <td>
-    //                 <button className="btn btn-warning" onClick={() => { viewItem(product.sn) }}>View Item</button>
-    //                 <button className="btn btn-info" onClick={() => { editItem(product.sn) }}>Edit Item</button>
+    //                 <button className="btn btn-warning" onClick={() => { viewPatient(patient.sn) }}>View Patient</button>
+    //                 <button className="btn btn-info" onClick={() => { updatePatient(patient.sn) }}>Update Patient</button>
     //             </td>
     //         </tr>
     //     );
@@ -52,7 +57,7 @@ export default function ListPatients(/*props*/) {
                     </tr>
                 </thead>
                 <tbody>
-                    {/* {tabRow} */}
+                    {/* {{tabRow}} */}
                 </tbody>
             </table>
         </div>

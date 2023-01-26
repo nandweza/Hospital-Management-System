@@ -5,11 +5,11 @@ const Schema = mongoose.Schema;
 const patientSchema = new Schema({
     sn: { type: Number, required: true },
     date: { type: Date, required: true },
-    names: { type: String, required: true },
+    name: { type: String, required: true },
     sex: { type: String, required: true },
     dob: { type: Date, reuired: true },
     bloodgp: { type: String, reuired: true },
-    medhistory: { type: String },
+    medicalh: { type: String },
     symptoms: { type: String },
     disease: { type: String },
     diagnosis: { type: String },
